@@ -1,0 +1,1384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57; /* Verde escuro */
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700; /* Amarelo dourado para o hover */
+}
+
+.hero {
+    background-color: #4caf50; /* Verde claro */
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #2e8b57;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '✔️';
+    margin-right: 10px;
+    color: #2e8b57;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Botões para links em cada página */
+button {
+    background-color: #4caf50; /* Verde */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #388e3c; /* Verde mais escuro */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #2e8b57; /* Verde escuro */
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700; /* Amarelo dourado para o hover */
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x600/4caf50/ffffff?text=Bem-vindo+à+Pafa+Evolution') center center/cover no scroll;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.4); /* Sombra de escurecimento */
+    animation: fadeIn 2s ease-in-out; /* Animação */
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta button {
+    background-color: #4caf50; /* Verde */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta button:hover {
+    background-color: #388e3c; /* Verde mais escuro */
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #2e8b57;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #2e8b57;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.proposta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.proposta h3 {
+    color: #2e8b57;
+    font-size: 1.8rem;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+.proposta-detalles {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #555;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #2e8b57;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.proposta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.proposta h3 {
+    color: #2e8b57;
+    font-size: 1.8rem;
+}
+
+.proposta p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.proposta:hover {
+    transform: scale(1.05);  /* Efeito de ampliação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra para dar destaque */
+}
+
+.proposta:hover p {
+    max-height: 1000px;  /* Expande a descrição ao passar o mouse */
+}
+
+.proposta p {
+    max-height: 100px;  /* Definindo uma altura inicial */
+    overflow: hidden;  /* Esconde o texto extra */
+    transition: max-height 0.3s ease-in-out;  /* Anima a expansão */
+}
+
+.insta-btn {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.insta-btn:hover {
+    background-color: #388e3c;
+}
+
+.insta-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #2e8b57;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.proposta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.proposta h3 {
+    color: #2e8b57;
+    font-size: 1.8rem;
+}
+
+.proposta p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.proposta:hover {
+    transform: scale(1.05);  /* Efeito de ampliação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra para dar destaque */
+}
+
+.proposta:hover p {
+    max-height: 1000px;  /* Expande a descrição ao passar o mouse */
+}
+
+.proposta p {
+    max-height: 100px;  /* Definindo uma altura inicial */
+    overflow: hidden;  /* Esconde o texto extra */
+    transition: max-height 0.3s ease-in-out;  /* Anima a expansão */
+}
+
+/* Estilo para o texto explicativo */
+.saiba-mais {
+    font-size: 1.1rem;
+    color: #4caf50;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Estilo do link */
+.saiba-mais a {
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.saiba-mais a:hover {
+    color: #2e8b57;
+}
+
+.insta-text {
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2e8b57;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    color: #2e8b57;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    color: #555;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2e8b57;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2e8b57;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #1f6b42;
+}
+
+.faq-answer {
+    padding: 15px;
+    display: none;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2e8b57;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #1f6b42;
+}
+
+.faq-answer {
+    padding: 15px;
+    display: none;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #1f6b42;
+}
+
+.faq-answer {
+    padding: 15px;
+    display: none;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #555;
+    max-height: 0; /* Inicialmente escondido */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Animação para expandir */
+}
+
+/* Efeito de expansão */
+.faq-item.active .faq-answer {
+    max-height: 1000px; /* A altura máxima que o conteúdo pode ocupar quando expandido */
+    display: block;
+}
+
+.faq-item.active .faq-question {
+    display: none; /* Esconde o botão quando a resposta é expandida */
+}
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #1f6b42;
+}
+
+.faq-answer {
+    padding: 15px;
+    display: block;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #555;
+    max-height: 0; /* Inicialmente escondido */
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out; /* Transições mais suaves */
+}
+
+/* Efeito de expansão */
+.faq-item.active .faq-answer {
+    max-height: 500px; /* Limite menor para uma animação mais suave */
+    opacity: 1; /* Torna visível */
+}
+
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definições gerais do body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+/* Container principal para centralizar o conteúdo */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Limita o tamanho máximo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Estilo das seções do conteúdo */
+section {
+    margin: 30px 0;
+}
+
+/* Layout das colunas (Flexbox para se adaptar) */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Definição das colunas */
+.column {
+    flex: 1;
+    min-width: 250px; /* Garantir que as colunas se ajustem */
+    max-width: calc(33% - 20px); /* 3 colunas em telas grandes */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das colunas */
+.column h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Estilos para botões */
+button {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1f6b42;
+}
+
+/* FAQ - expandir/responder */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #1f6b42;
+}
+
+.faq-answer {
+    padding: 15px;
+    display: block;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 500px;
+    opacity: 1;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    /* Ajustes no cabeçalho */
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .row {
+        flex-direction: column; /* Coloca as colunas em uma única coluna */
+    }
+
+    .column {
+        min-width: 100%; /* As colunas vão ocupar 100% em telas pequenas */
+        max-width: 100%;
+    }
+
+    /* FAQ no mobile */
+    .faq-container {
+        padding: 10px;
+    }
+
+    .faq-question {
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+
+    .faq-answer {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes ainda mais refinados para telas muito pequenas */
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .column {
+        padding: 15px;
+    }
+}
+/* Estilo geral para a lista de navegação */
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Quando o botão estiver ativo, aumenta de tamanho */
+.menu-btn.active {
+    transform: scale(1.2); /* Aumenta o tamanho */
+    background-color: #2e8b57; /* Cor do fundo quando ativo */
+}
+
+/* Quando o botão não está ativo, muda a cor ao passar o mouse */
+.menu-btn:not(.active):hover {
+    background-color: #555;
+}
+
+/* Retira a borda de foco nos links */
+.menu-btn:focus {
+    outline: none;
+}
+/* Estilo geral para a lista de navegação */
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.menu li {
+    margin: 0 10px;
+    flex: 1;
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.menu-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: block; /* Para garantir que o link ocupe toda a área do <li> */
+    text-align: center;
+}
+
+/* Quando o botão está ativo, ele expande */
+.menu-btn.active {
+    transform: scale(1.3); /* Expande o botão */
+    background-color: #2e8b57; /* Cor do fundo quando ativo */
+}
+
+/* Efeito para os itens inativos - diminuem */
+.menu-btn:not(.active) {
+    transform: scale(0.9); /* Diminui os itens não ativos */
+}
+
+/* Quando o botão não está ativo, muda a cor ao passar o mouse */
+.menu-btn:not(.active):hover {
+    background-color: #555;
+}
+
+/* Retira a borda de foco nos links */
+.menu-btn:focus {
+    outline: none;
+}
